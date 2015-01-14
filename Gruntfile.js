@@ -13,7 +13,7 @@ module.exports = function(grunt) {
     faversion: '4.2.0',
     modules: [],//to be filled in by build task
     pkg: grunt.file.readJSON('package.json'),
-    dist: 'dist',
+    dist: 'dude',
     filename: 'mm-foundation',
     filenamecustom: '<%= filename %>-custom',
     meta: {
